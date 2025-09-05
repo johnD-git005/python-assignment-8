@@ -52,7 +52,6 @@ class BankAccount:
 
 account = BankAccount()
 account.account_details("John", 1000)
-print(account.deposit("John", 0))
-print(account.withdraw("John", 0))
-print(account.get_balance())
+print(account.deposit("John", 500))
+print(account.withdraw("John", 200))
 print(account.show_registration())
